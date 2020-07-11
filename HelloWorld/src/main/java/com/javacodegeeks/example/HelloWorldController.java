@@ -10,4 +10,9 @@ public class HelloWorldController {
 	public String sayHello() {
 		return "Hello Java Code Geeks!";
 	}
+	
+	@GetMapping("/message")
+	public String sayMessage() {
+		return "This is secret message";
+	}
 }
