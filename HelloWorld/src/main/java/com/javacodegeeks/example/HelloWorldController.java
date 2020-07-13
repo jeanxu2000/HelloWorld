@@ -13,6 +13,6 @@ public class HelloWorldController {
 	
 	@GetMapping("/message")
 	public String sayMessage() {
-		return "This is Jing's secret message";
+		return "This is Jing's secret message, hello";
 	}
 }
